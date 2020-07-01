@@ -1,9 +1,14 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <MessageDisplay />
   </div>
 </template>
 
 <script>
-export default {}
+import MessageDisplay from '@/components/MessageDisplay'
+export default {
+  components: {
+    MessageDisplay
+  }
+}
 </script>
